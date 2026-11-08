@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f3ed" />
+    <title>MỘC — Tủ rượu 129</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Mộc studio"><span class="brand-mark">m.</span><span>MỘC<span class="brand-caption">KHÔNG GIAN CỦA RIÊNG BẠN</span></span></a>
+      <div class="project-nav"><span class="nav-line"></span>Bộ sưu tập cá nhân<span class="nav-slash">/</span><strong>Tủ rượu 129</strong></div>
+      <button class="button export-button" id="save-image"><i data-icon="download"></i><span>Lưu ảnh thiết kế</span></button>
+    </header>
+    <main class="workspace">
+      <button class="sheet-scrim" id="sheet-scrim" aria-label="Đóng bảng tùy chỉnh" tabindex="-1" hidden></button>
+      <aside class="sidebar">
+        <button class="mobile-sheet-toggle" id="mobile-settings-toggle" aria-expanded="false" aria-controls="settings-content"><span class="sheet-handle"></span><span class="sheet-toggle-icon"><i data-icon="sliders"></i></span><span class="sheet-toggle-text"><strong>Tùy chỉnh thiết kế</strong><small id="mobile-summary">Óc chó · Sâu thân 24 cm</small></span><span class="sheet-toggle-action"><span id="sheet-action-label">Mở</span><i data-icon="chevron"></i></span></button>
+        <div class="settings-content" id="settings-content">
+        <div class="intro"><div class="eyebrow"><span></span> THIẾT KẾ TỪ PHÁC THẢO CỦA BẠN</div><h1>Một góc rượu.<br>Một nét riêng.</h1><p>Gỗ ấm, ánh sáng dịu và những câu chuyện<br class="desktop-break"> được lưu giữ theo thời gian.</p></div>
+        <div class="tabs" role="tablist" aria-label="Thông tin thiết kế"><button class="tab active" id="design-tab" role="tab" aria-selected="true" aria-controls="design-panel">Tùy chỉnh thiết kế</button><button class="tab" id="structure-tab" role="tab" aria-selected="false" aria-controls="structure-panel">Cấu tạo tủ</button></div>
+        <section id="design-panel" role="tabpanel" aria-labelledby="design-tab">
+          <div class="section-heading"><h2>01 <span>Chất liệu & màu gỗ</span></h2><span class="tiny-label">PHỦ MỜ</span></div>
+          <div class="swatches" aria-label="Màu gỗ"><button class="swatch selected" data-wood="walnut" aria-pressed="true"><span class="wood-sample walnut"><i data-icon="check"></i></span><strong>Óc chó</strong><small>Trầm ấm</small></button><button class="swatch" data-wood="oak" aria-pressed="false"><span class="wood-sample oak"><i data-icon="check"></i></span><strong>Sồi tự nhiên</strong><small>Thanh lịch</small></button><button class="swatch" data-wood="smoked" aria-pressed="false"><span class="wood-sample smoked"><i data-icon="check"></i></span><strong>Sồi hun khói</strong><small>Hiện đại</small></button></div>
+          <div class="section-heading second"><h2>02 <span>Kích thước tổng thể</span></h2><span class="tiny-label">CM</span></div>
+          <div class="dimension-cards"><div><small>Rộng cả tán</small><strong>137<span>cm</span></strong></div><div><small>Chiều cao</small><strong>197<span>cm</span></strong></div><div><label for="depth">Chiều sâu thân</label><select id="depth" aria-label="Chiều sâu tủ"><option value="24" selected>24 cm</option><option value="35">35 cm</option><option value="40">40 cm</option><option value="45">45 cm</option></select></div></div>
+          <p class="field-note"><i data-icon="info"></i> Thân rộng 129 cm. Tán nhô 4 cm mỗi bên, 5 cm phía trước.</p>
+          <div class="section-heading second"><h2>03 <span>Hoàn thiện không gian</span></h2></div>
+          <label class="setting"><span class="setting-icon"><i data-icon="sun"></i></span><span><strong>Đèn hắt kệ</strong><small>Ánh sáng vàng ấm · 2700 K</small></span><input id="light-toggle" type="checkbox" role="switch" checked><span class="switch"></span></label>
+          <label class="setting"><span class="setting-icon"><i data-icon="vase"></i></span><span><strong>Vật dụng trang trí</strong><small>Rượu vang, ly & gốm thủ công</small></span><input id="decor-toggle" type="checkbox" role="switch" checked><span class="switch"></span></label>
+          <div class="sketch-card"><div class="sketch-mini" aria-hidden="true"><span></span><span></span><span></span><span></span></div><div><strong>Từ nét vẽ đến không gian</strong><p>Giữ đúng vị trí cánh tủ & ngăn kéo.</p><button id="reference-open">Xem phác thảo gốc <span>↗</span></button></div></div>
+        </section>
+        <section id="structure-panel" role="tabpanel" aria-labelledby="structure-tab" hidden>
+          <div class="structure-intro">Bố trí bám theo bản vẽ tay</div>
+          <ol class="structure-list"><li><b>01</b><div><strong>Hệ kệ mở phía trên</strong><p>Chia ô bất đối xứng theo phác thảo, bố trí kệ chai nằm, ly treo và vật trang trí.</p></div></li><li><b>02</b><div><strong>Hai cánh tủ ở hai bên</strong><p>Cánh trái mở về bên trái, cánh phải mở về bên phải. Tay nắm đồng xước đặt sát phía giữa.</p></div></li><li><b>03</b><div><strong>Hai ngăn kéo ở giữa</strong><p>Xếp dọc: một ngăn nông ở trên và một ngăn sâu ở dưới, theo ghi chú trên hình.</p></div></li><li><b>04</b><div><strong>Tán gỗ nóc & mặt giữa</strong><p>Hai tán dày 32 mm, rộng 137 cm, nhô 4 cm mỗi bên và 5 cm phía trước; mép bo nhẹ, thêm diềm gỗ hai tầng đồng bộ.</p></div></li></ol>
+          <p class="construction-note">Mô hình ý tưởng theo số đo đọc từ ảnh. Cần xác nhận kích thước thực tế và phụ kiện trước khi sản xuất.</p>
+          <button class="button glb-button" id="export-glb"><i data-icon="box"></i>Tải mô hình 3D (.glb)</button>
+        </section>
+        <div class="sidebar-bottom"><span class="status-dot"></span> Thiết kế riêng theo bản vẽ của bạn <span>01 / 01</span></div>
+        </div>
+      </aside>
+      <section class="viewer" aria-label="Mô hình tủ rượu 3D tương tác">
+        <div id="canvas-container"></div>
+        <div class="viewer-heading"><div><span class="eyebrow">THE WOOD COLLECTION</span><h2>Tủ rượu <span>129</span></h2><p id="finish-label">Gỗ óc chó · Tay nắm đồng xước</p></div><span class="live-badge"><span></span> 3D TRỰC TIẾP</span></div>
+        <div class="view-tabs" role="group" aria-label="Góc nhìn"><button class="active" data-view="perspective"><i data-icon="box"></i>Phối cảnh</button><button data-view="front"><i data-icon="front"></i>Chính diện</button><button data-view="detail"><i data-icon="zoom"></i>Chi tiết</button></div>
+        <div class="scene-toolbar"><button id="dimensions-toggle" title="Hiện kích thước" aria-label="Hiện kích thước" aria-pressed="false"><i data-icon="ruler"></i></button><button id="reset-view" title="Đặt lại góc nhìn" aria-label="Đặt lại góc nhìn"><i data-icon="reset"></i></button><div></div><button id="zoom-in" title="Phóng to" aria-label="Phóng to"><i data-icon="plus"></i></button><button id="zoom-out" title="Thu nhỏ" aria-label="Thu nhỏ"><i data-icon="minus"></i></button></div>
+        <div class="scroll-mode" role="group" aria-label="Chế độ cuộn touchpad"><span>Cuộn để</span><button class="active" data-scroll-mode="rotate" aria-pressed="true">Xoay tủ</button><button data-scroll-mode="zoom" aria-pressed="false">Thu phóng</button></div>
+        <div class="interaction-hint"><i data-icon="mouse"></i><span id="gesture-hint">Vuốt 2 ngón để xoay <b>·</b> Chụm để thu phóng</span><span class="mobile-gesture-hint">Kéo 1 ngón để xoay <b>·</b> Chụm 2 ngón để zoom</span></div>
+        <div class="cabinet-controls"><button id="storage-toggle" aria-pressed="false"><i data-icon="open"></i><span>Mở cánh & ngăn kéo</span><span class="keycap">↗</span></button></div>
+        <div class="viewer-footer"><span><span class="status-dot"></span> ĐÚNG BỐ TRÍ PHÁC THẢO</span><span>137 × 197 × <b id="depth-caption">29</b> cm <em>R × C × S · CẢ TÁN</em></span><button id="fullscreen" title="Xem toàn màn hình"><i data-icon="expand"></i></button></div>
+        <div class="loading" id="loading"><span class="loading-ring"></span><span>Đang hoàn thiện góc rượu của bạn…</span></div>
+        <div class="error-message" id="render-error" hidden>Trình duyệt chưa hỗ trợ WebGL. Hãy mở thiết kế bằng Chrome hoặc Edge có bật tăng tốc đồ họa.</div>
+      </section>
+    </main>
+    <dialog id="reference-dialog"><div class="dialog-head"><div><span class="eyebrow">Ý TƯỞNG BAN ĐẦU</span><h2>Phác thảo của bạn</h2></div><button id="reference-close" aria-label="Đóng phác thảo"><i data-icon="close"></i></button></div><img src="/reference.jpg" alt="Bản phác thảo tủ rượu rộng 129 cm, cao 197 cm; hai cánh tủ hai bên và hai ngăn kéo ở giữa"><p>Đọc từ ảnh: thân rộng 129 cm, cao 197 cm. Hai cánh hai bên, hai ngăn kéo giữa. Chiều sâu thân 24 cm theo yêu cầu bổ sung; tán nóc và giữa nhô thêm 5 cm phía trước, 4 cm mỗi bên.</p></dialog>
+    <div class="toast" id="toast" role="status"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
